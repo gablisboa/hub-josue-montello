@@ -1,0 +1,38 @@
+---
+title: "Estrutura de Execução"
+description: "Fluxo de execução do planejamento estratégico da Fundação Josué Montello"
+
+---
+
+A partir de todas as oficinas, identificação de riscos, forças, fraquezas, oportunidades, ameaças e de todas as entrevistas e trabalhos de mapeamento realizados, foi possível definir perspectivas que funcionam como diretrizes para a definição de objetivos estratégicos.
+
+Estes objetivos se desdobram em objetivos táticos, que serão trabalhados a partir de iniciativas com metas e indicadores de avaliação.
+
+Essas iniciativas estarão conectadas ao plano de ação de cada um que tem papel ativo na Fundação Josué Montello.
+
+```mermaid
+flowchart TD
+    A["PONTO DE PARTIDA<br/><br/>Diagnóstico<br/>(SWOT, Riscos, Oficinas)"] --> B["DIRETRIZES<br/><br/>Perspectivas<br/>(BSC)"]
+    B --> C["O QUÊ<br/><br/>Objetivos Estratégicos<br/>(OE)"]
+    C --> D["COMO<br/><br/>Objetivos Táticos<br/>(OT)"]
+    D --> E["PROJETOS<br/><br/>Iniciativas<br/>"]
+    E --> F["MEDIÇÃO<br/><br/>Metas e Indicadores<br/>(KPIs)"]
+    F --> G["EXECUÇÃO<br/><br/>Plano de Ação<br/>(Responsáveis)"]
+    
+    classDef startBox fill:#f0f0f0, stroke:#333,stroke-width:3px
+    classDef directBox fill:#e3f2fd, stroke:#333,stroke-width:3px
+    classDef whatBox fill:#90caf9, stroke:#333,stroke-width:3px
+    classDef howBox fill:#e3f2fd, stroke:#333,stroke-width:3px
+    classDef projectBox fill:#c8e6c9, stroke:#333,stroke-width:3px
+    classDef measureBox fill:#fff9c4, stroke:#333,stroke-width:3px
+    classDef execBox fill:#1565c0, stroke:#333,stroke-width:3px,color:#fff
+    
+    class A startBox
+    class B directBox
+    class C whatBox
+    class D howBox
+    class E projectBox
+    class F measureBox
+    class G execBox
+```
+

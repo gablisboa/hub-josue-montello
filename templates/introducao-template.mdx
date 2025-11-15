@@ -1,0 +1,147 @@
+---
+title: "Título da Página"
+description: "Descrição da página que aparece nos resultados de busca"
+icon: "icon-name"  # Opcional: nome do ícone do FontAwesome
+---
+
+<!-- 
+  TEMPLATE REUTILIZÁVEL PARA PÁGINAS DE INTRODUÇÃO
+  ==================================================
+  
+  Este template fornece uma estrutura básica para criar páginas de introdução
+  com navegação por cards. Personalize conforme necessário.
+  
+  INSTRUÇÕES:
+  1. Copie este arquivo para o diretório desejado
+  2. Personalize o frontmatter (título, descrição, ícone)
+  3. Adicione seu conteúdo introdutório
+  4. Organize os cards de navegação por seções
+  5. Ajuste os caminhos dos links conforme a estrutura do seu docs.json
+-->
+
+<!-- Texto introdutório -->
+<!-- Substitua este parágrafo pelo conteúdo da sua página -->
+
+Seu texto introdutório vai aqui. Este é um exemplo de como estruturar uma página de introdução para o Plano Estratégico da Fundação Josué Montello.
+
+Você pode usar múltiplos parágrafos e incluir formatação em **negrito** ou _itálico_ conforme necessário.
+
+<!-- Navegação com Cards -->
+<!-- Organize os cards por seções temáticas -->
+
+## Navegação do Plano
+
+<!-- EXEMPLO 1: Card único (horizontal) -->
+<!-- Use CardGroup com cols={1} para um card grande e destacado -->
+
+### Seção Principal
+
+<CardGroup cols={1}>
+  <Card
+    title="Título do Card"
+    icon="icon-name"  # Ícones disponíveis: envelope, clock, chart-line, globe, etc.
+    href="/caminho/para/pagina"
+  >
+    Descrição breve do que o usuário encontrará nesta página.
+  </Card>
+</CardGroup>
+
+<!-- EXEMPLO 2: Grid de 2 colunas -->
+<!-- Use CardGroup com cols={2} para exibir 2 cards lado a lado -->
+
+### Primeira Categoria
+
+<CardGroup cols={2}>
+  <Card
+    title="Primeiro Card"
+    icon="rocket"
+    href="/caminho/primeiro"
+  >
+    Descrição do primeiro card.
+  </Card>
+  <Card
+    title="Segundo Card"
+    icon="star"
+    href="/caminho/segundo"
+  >
+    Descrição do segundo card.
+  </Card>
+</CardGroup>
+
+<!-- EXEMPLO 3: Grid de 3 colunas -->
+<!-- Use CardGroup com cols={3} para exibir 3 cards lado a lado -->
+
+### Segunda Categoria
+
+<CardGroup cols={3}>
+  <Card
+    title="Card 1"
+    icon="chart-line"
+    href="/caminho/card1"
+  >
+    Descrição do card 1.
+  </Card>
+  <Card
+    title="Card 2"
+    icon="users"
+    href="/caminho/card2"
+  >
+    Descrição do card 2.
+  </Card>
+  <Card
+    title="Card 3"
+    icon="lightbulb"
+    href="/caminho/card3"
+  >
+    Descrição do card 3.
+  </Card>
+</CardGroup>
+
+<!-- EXEMPLO 4: Usando Columns para layout customizado -->
+<!-- Use Columns para criar layouts mais complexos -->
+
+### Terceira Categoria
+
+<Columns cols={2}>
+  <Card
+    title="Card Esquerda"
+    icon="sitemap"
+    href="/caminho/esquerda"
+  >
+    Card com layout customizado.
+  </Card>
+  <Card
+    title="Card Direita"
+    icon="diagram-project"
+    href="/caminho/direita"
+  >
+    Card com layout customizado.
+  </Card>
+</Columns>
+
+<!-- DICAS ADICIONAIS -->
+<!-- 
+  - Ícones disponíveis: envelope, clock, chart-line, globe, triangle-exclamation,
+    sitemap, star, diagram-project, users, diagram-next, bullseye, lightbulb,
+    flag, list-check, gauge, calculator, megaphone, handshake, map, user-group,
+    network-wired, rocket, pen-to-square, palette, etc.
+  
+  - Os caminhos devem ser relativos à raiz do site e corresponder aos caminhos
+    definidos em docs.json (sem a extensão .mdx)
+  
+  - Você pode usar outros componentes MDX como:
+    - <Note> para notas importantes
+    - <Tip> para dicas
+    - <Warning> para avisos
+    - <Accordion> para conteúdo expansível
+-->
+
+<!-- EXEMPLO: Usando componentes adicionais -->
+<Tip>
+  Esta é uma dica que pode ajudar os leitores.
+</Tip>
+
+<Note>
+  Esta é uma nota importante sobre o conteúdo.
+</Note>
+

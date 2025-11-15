@@ -1,116 +1,208 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "willow",
+  "name": "Fundação Josué Montello",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#005DA6",
+    "light": "#56BFE8",
+    "dark": "#005DA6"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Plano Estratégico",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Introdução",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "apresentacao/mensagem-da-diretoria",
+              "metodologia/index",
+              "linha-do-tempo/index",
+              "estrutura-de-execucao/index"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Diagnóstico Organizacional",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "diagnostico/index",
+              "diagnostico/balanco-estrategico",
+              "diagnostico/forcas-centrais",
+              "diagnostico/fraquezas-criticas",
+              "diagnostico/tema-paralisia",
+              "diagnostico/tema-dependencias",
+              "diagnostico/tema-caos-operacional"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Análise de Ambiente",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "analise-ambiente/interno",
+              "analise-ambiente/top-forcas",
+              "analise-ambiente/top-fraquezas",
+              "analise-ambiente/externo",
+              "analise-ambiente/top-oportunidades",
+              "analise-ambiente/top-ameacas"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Mapa de Riscos (PESTAL)",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "mapa-riscos/index"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Grupos de Interesse",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "grupos-interesse/publico-prioritario",
+              "grupos-interesse/publico-maior-impacto",
+              "grupos-interesse/publico-inexplorado"
+            ]
+          },
+          {
+            "group": "Partes Interessadas",
+            "pages": [
+              "partes-interessadas/equipe-interna",
+              "partes-interessadas/parceiros-estrategicos",
+              "partes-interessadas/orgaos-controle",
+              "partes-interessadas/fornecedores",
+              "partes-interessadas/sociedade",
+              "partes-interessadas/clientes-beneficiarios"
+            ]
+          },
+          {
+            "group": "Identidade Organizacional",
+            "pages": [
+              "identidade-organizacional/missao",
+              "identidade-organizacional/visao",
+              "identidade-organizacional/valores"
+            ]
+          },
+          {
+            "group": "Mapeamento de Processos",
+            "pages": [
+              "processos/index"
+            ]
+          },
+          {
+            "group": "Estrutura de RH",
+            "pages": [
+              "recursos-humanos/index"
+            ]
+          },
+          {
+            "group": "Novo Organograma",
+            "pages": [
+              "organograma/index"
+            ]
+          },
+          {
+            "group": "Posicionamento Estratégico",
+            "pages": [
+              "posicionamento/index"
+            ]
+          },
+          {
+            "group": "Estratégias Planejadas",
+            "pages": [
+              "estrategias/fomento-pesquisa",
+              "estrategias/empreendedorismo",
+              "estrategias/politicas-educacionais",
+              "estrategias/desenvolvimento-regional",
+              "estrategias/cooperacao-internacional",
+              "estrategias/gestao-institucional"
+            ]
+          },
+          {
+            "group": "Objetivos Estratégicos",
+            "pages": [
+              "objetivos/contribuicao-social",
+              "objetivos/resultados",
+              "objetivos/processos",
+              "objetivos/pessoas",
+              "objetivos/tecnologia-inovacao",
+              "objetivos/orcamento"
+            ]
+          },
+          {
+            "group": "Metas e Indicadores",
+            "pages": [
+              "metas-indicadores/index"
+            ]
+          },
+          {
+            "group": "Plano de Ação",
+            "pages": [
+              "plano-acao/perspectiva-social",
+              "plano-acao/perspectiva-resultados",
+              "plano-acao/perspectiva-processos",
+              "plano-acao/perspectiva-pessoas",
+              "plano-acao/perspectiva-tecnologia",
+              "plano-acao/perspectiva-orcamento"
+            ]
+          },
+          {
+            "group": "Orçamento",
+            "pages": [
+              "orcamento/index"
+            ]
+          },
+          {
+            "group": "Plano de Comunicação",
+            "pages": [
+              "comunicacao/publico-interno",
+              "comunicacao/publico-externo-parceiros",
+              "comunicacao/publico-externo-sociedade"
+            ]
+          },
+          {
+            "group": "Acompanhamento e Governança",
+            "pages": [
+              "governanca/reuniao-mensal",
+              "governanca/revisao-trimestral",
+              "governanca/reuniao-alinhamento",
+              "governanca/checkins-semanais"
+            ]
+          },
+          {
+            "group": "Mapa Estratégico",
+            "pages": [
+              "mapa-estrategico/visao",
+              "mapa-estrategico/perspectiva-social",
+              "mapa-estrategico/perspectiva-resultados",
+              "mapa-estrategico/perspectiva-processos",
+              "mapa-estrategico/perspectiva-pessoas",
+              "mapa-estrategico/perspectiva-tecnologia",
+              "mapa-estrategico/perspectiva-orcamento"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
+    "links": [],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Fundação Josué Montello",
+      "href": "https://www.fjmontello.org/"
     }
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
