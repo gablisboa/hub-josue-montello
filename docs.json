@@ -60,70 +60,11 @@
               "planejamento-estrategico/estrategias-planejadas",
               "planejamento-estrategico/objetivos-estrategicos",
               "planejamento-estrategico/metas-indicadores",
-              "planejamento-estrategico/plano-acao"
-            ]
-          },
-          {
-            "group": "Objetivos Estratégicos",
-            "pages": [
-              "objetivos/contribuicao-social",
-              "objetivos/resultados",
-              "objetivos/processos",
-              "objetivos/pessoas",
-              "objetivos/tecnologia-inovacao",
-              "objetivos/orcamento"
-            ]
-          },
-          {
-            "group": "Metas e Indicadores",
-            "pages": [
-              "metas-indicadores/index"
-            ]
-          },
-          {
-            "group": "Plano de Ação",
-            "pages": [
-              "plano-acao/perspectiva-social",
-              "plano-acao/perspectiva-resultados",
-              "plano-acao/perspectiva-processos",
-              "plano-acao/perspectiva-pessoas",
-              "plano-acao/perspectiva-tecnologia",
-              "plano-acao/perspectiva-orcamento"
-            ]
-          },
-          {
-            "group": "Orçamento",
-            "pages": [
-              "orcamento/index"
-            ]
-          },
-          {
-            "group": "Plano de Comunicação",
-            "pages": [
-              "comunicacao/publico-interno",
-              "comunicacao/publico-externo-parceiros",
-              "comunicacao/publico-externo-sociedade"
-            ]
-          },
-          {
-            "group": "Acompanhamento e Governança",
-            "pages": [
-              "governanca/reuniao-mensal",
-              "governanca/revisao-trimestral",
-              "governanca/reuniao-alinhamento",
-              "governanca/checkins-semanais"
-            ]
-          },
-          {
-            "group": "Mapa Estratégico",
-            "pages": [
-              "mapa-estrategico/visao",
-              "mapa-estrategico/perspectiva-social",
-              "mapa-estrategico/perspectiva-resultados",
-              "mapa-estrategico/perspectiva-processos",
-              "mapa-estrategico/perspectiva-pessoas",
-              "mapa-estrategico/perspectiva-tecnologia",
-              "mapa-estrategico/perspectiva-orcamento"
+              "planejamento-estrategico/plano-acao",
+              "planejamento-estrategico/orcamento",
+              "planejamento-estrategico/plano-comunicacao",
+              "planejamento-estrategico/acompanhamento-avaliacao",
+              "planejamento-estrategico/mapa-estrategico"
             ]
           }
         ]
