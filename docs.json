@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "mint",
   "name": "Fundação Josué Montello",
   "colors": {
     "primary": "#005DA6",
@@ -25,92 +25,42 @@
           {
             "group": "Diagnóstico Organizacional",
             "pages": [
-              "diagnostico/index",
-              "diagnostico/balanco-estrategico",
-              "diagnostico/forcas-centrais",
-              "diagnostico/fraquezas-criticas",
-              "diagnostico/tema-paralisia",
-              "diagnostico/tema-dependencias",
-              "diagnostico/tema-caos-operacional"
-            ]
-          },
-          {
-            "group": "Análise de Ambiente",
-            "pages": [
-              "analise-ambiente/interno",
-              "analise-ambiente/top-forcas",
-              "analise-ambiente/top-fraquezas",
-              "analise-ambiente/externo",
-              "analise-ambiente/top-oportunidades",
-              "analise-ambiente/top-ameacas"
-            ]
-          },
-          {
-            "group": "Mapa de Riscos (PESTAL)",
-            "pages": [
-              "mapa-riscos/index"
-            ]
-          },
-          {
-            "group": "Grupos de Interesse",
-            "pages": [
-              "grupos-interesse/publico-prioritario",
-              "grupos-interesse/publico-maior-impacto",
-              "grupos-interesse/publico-inexplorado"
-            ]
-          },
-          {
-            "group": "Partes Interessadas",
-            "pages": [
-              "partes-interessadas/equipe-interna",
-              "partes-interessadas/parceiros-estrategicos",
-              "partes-interessadas/orgaos-controle",
-              "partes-interessadas/fornecedores",
-              "partes-interessadas/sociedade",
-              "partes-interessadas/clientes-beneficiarios"
+              "diagnostico/situacional",
+              "diagnostico/analise-do-ambiente",
+              "diagnostico/analise-pestal",
+              "diagnostico/veredito-final",
+              "diagnostico/matriz-tows",
+              "diagnostico/prioridades-imediatas"
             ]
           },
           {
             "group": "Identidade Organizacional",
             "pages": [
-              "identidade-organizacional/missao",
-              "identidade-organizacional/visao",
-              "identidade-organizacional/valores"
+              "identidade-organizacional/index"
             ]
           },
           {
-            "group": "Mapeamento de Processos",
+            "group": "Posicionamento de Mercado",
             "pages": [
-              "processos/index"
+              "grupos-interesse/publicos-estrategicos",
+              "grupos-interesse/acoes-posicionamento"
             ]
           },
           {
-            "group": "Estrutura de RH",
+            "group": "Proposta Organizacional",
             "pages": [
-              "recursos-humanos/index"
+              "proposta-organizacional/novo-organograma",
+              "proposta-organizacional/reestruturacao-rh",
+              "proposta-organizacional/mapeamento-processos"
             ]
           },
           {
-            "group": "Novo Organograma",
+            "group": "Planejamento Estratégico 2026-2030",
             "pages": [
-              "organograma/index"
-            ]
-          },
-          {
-            "group": "Posicionamento Estratégico",
-            "pages": [
-              "posicionamento/index"
-            ]
-          },
-          {
-            "group": "Estratégias Planejadas",
-            "pages": [
-              "estrategias/fomento-pesquisa",
-              "estrategias/empreendedorismo",
-              "estrategias/politicas-educacionais",
-              "estrategias/desenvolvimento-regional",
-              "estrategias/cooperacao-internacional",
-              "estrategias/gestao-institucional"
+              "planejamento-estrategico/estrategias-planejadas",
+              "planejamento-estrategico/objetivos-estrategicos",
+              "planejamento-estrategico/metas-indicadores",
+              "planejamento-estrategico/plano-acao"
             ]
           },
           {
